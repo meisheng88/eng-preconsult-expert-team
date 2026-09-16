@@ -1,0 +1,140 @@
+{
+  "name": "eng-preconsult-expert-team",
+  "version": "1.0.0",
+  "description": "9-expert engineering pre-project consulting team: project planning, market research, feasibility study, cost estimating, financial evaluation, special assessments, approval filing, and report review.",
+  "author": {
+    "name": "大侠",
+    "email": "Excellent@umayun.com"
+  },
+  "agents": [
+    "./agents/eng-preconsult-expert-team-team-lead.md",
+    "./agents/eng-preconsult-expert-team-planner.md",
+    "./agents/eng-preconsult-expert-team-market.md",
+    "./agents/eng-preconsult-expert-team-feasibility.md",
+    "./agents/eng-preconsult-expert-team-approval.md",
+    "./agents/eng-preconsult-expert-team-cost.md",
+    "./agents/eng-preconsult-expert-team-finance.md",
+    "./agents/eng-preconsult-expert-team-assessment.md",
+    "./agents/eng-preconsult-expert-team-reviewer.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "eng-preconsult-expert-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "eng-preconsult-expert-team-team-lead",
+    "memberAgents": [
+      "eng-preconsult-expert-team-planner",
+      "eng-preconsult-expert-team-market",
+      "eng-preconsult-expert-team-feasibility",
+      "eng-preconsult-expert-team-approval",
+      "eng-preconsult-expert-team-cost",
+      "eng-preconsult-expert-team-finance",
+      "eng-preconsult-expert-team-assessment",
+      "eng-preconsult-expert-team-reviewer"
+    ]
+  },
+
+  "displayName": {
+    "en": "Engineering Pre-Consulting Expert Team",
+    "zh": "工程前期咨询专家团"
+  },
+  "profession": {
+    "en": "Engineering Pre-Consulting Expert Team",
+    "zh": "工程前期咨询专家团"
+  },
+  "displayDescription": {
+    "en": "Describe your project - 9 experts cover planning, market research, feasibility study, special assessments and approval filing end-to-end for pre-project consulting.",
+    "zh": "说出你的工程项目，9位专家从策划、调研、可研、评估到报批全程协作，助你快速完成前期咨询与立项决策。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我要建一个年产10万吨的新材料工厂，帮我做项目前期咨询",
+    "en": "I want to build a 100,000-ton new materials plant, help me with pre-project consulting"
+  },
+  "plugin": "eng-preconsult-expert-team",
+  "tags": [
+    { "en": "Pre-Project Consulting", "zh": "工程前期咨询" },
+    { "en": "Feasibility Study", "zh": "可行性研究" },
+    { "en": "Project Approval", "zh": "立项报批" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I want to build a 100,000-ton new materials plant, help me with pre-project consulting",
+      "zh": "我要建一个年产10万吨的新材料工厂，帮我做项目前期咨询"
+    },
+    {
+      "en": "Help me write a feasibility study report for an industrial park project",
+      "zh": "帮我编写一份产业园区项目的可行性研究报告"
+    },
+    {
+      "en": "What pre-project approvals does this project need? Map out the approval path for me",
+      "zh": "这个项目需要办哪些前期审批？帮我梳理报批报建路径"
+    }
+  ],
+  "members": [
+    {
+      "id": "eng-preconsult-expert-team-team-lead",
+      "displayName": { "en": "Qi Mouyuan", "zh": "齐谋远" },
+      "profession": { "en": "Chief Consulting Officer", "zh": "首席咨询官" },
+      "avatar": "avatars/eng-preconsult-expert-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "eng-preconsult-expert-team-planner",
+      "displayName": { "en": "Zhang Qicheng", "zh": "章启程" },
+      "profession": { "en": "Project Initiation Consultant", "zh": "前期策划师" },
+      "avatar": "avatars/eng-preconsult-expert-team-planner.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-market",
+      "displayName": { "en": "Su Qingyu", "zh": "苏晴雨" },
+      "profession": { "en": "Market Research Analyst", "zh": "市场研究员" },
+      "avatar": "avatars/eng-preconsult-expert-team-market.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-feasibility",
+      "displayName": { "en": "Ji Kexing", "zh": "纪可行" },
+      "profession": { "en": "Feasibility Study Engineer", "zh": "可行性研究工程师" },
+      "avatar": "avatars/eng-preconsult-expert-team-feasibility.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-approval",
+      "displayName": { "en": "Lu Lutong", "zh": "陆路通" },
+      "profession": { "en": "Policy & Approval Specialist", "zh": "政策报批专家" },
+      "avatar": "avatars/eng-preconsult-expert-team-approval.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-cost",
+      "displayName": { "en": "Qian Suanzhun", "zh": "钱算准" },
+      "profession": { "en": "Cost Estimation Engineer", "zh": "造价估算师" },
+      "avatar": "avatars/eng-preconsult-expert-team-cost.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-finance",
+      "displayName": { "en": "Wei Huasuan", "zh": "魏划算" },
+      "profession": { "en": "Financial & Economic Analyst", "zh": "财务经济评价师" },
+      "avatar": "avatars/eng-preconsult-expert-team-finance.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-assessment",
+      "displayName": { "en": "Yue Qingyuan", "zh": "岳清源" },
+      "profession": { "en": "Special Assessment Engineer", "zh": "专项评估工程师" },
+      "avatar": "avatars/eng-preconsult-expert-team-assessment.png",
+      "role": "member"
+    },
+    {
+      "id": "eng-preconsult-expert-team-reviewer",
+      "displayName": { "en": "Hao Yanjin", "zh": "郝严谨" },
+      "profession": { "en": "Chief Report Reviewer", "zh": "报告评审总工" },
+      "avatar": "avatars/eng-preconsult-expert-team-reviewer.png",
+      "role": "member"
+    }
+  ]
+}
