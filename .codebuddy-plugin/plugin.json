@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "9-expert engineering pre-project consulting team: project planning, market research, feasibility study, cost estimating, financial evaluation, special assessments, approval filing, and report review.",
   "author": {
-    "name": "大侠",
-    "email": "Excellent@umayun.com"
+    "name": "tanzi",
+    "email": "tanzi@meisheng.cn"
   },
   "agents": [
     "./agents/eng-preconsult-expert-team-team-lead.md",
